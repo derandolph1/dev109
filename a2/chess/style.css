@@ -9,8 +9,8 @@ img {
 
 .row{
  position:relative;
- margin-left:10%;
- margin-right:10%;
+ margin-left:auto;
+ margin-right:auto;
 }
 
 .white{
