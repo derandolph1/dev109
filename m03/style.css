@@ -1,4 +1,4 @@
-			body {
+			/*body {
 				font-family: Helvetica, Arial, sans-serif;
 				color: #665544;
 				padding: 22px;}
@@ -11,8 +11,8 @@ p {
   font-family:'DancingScriptRegular';
   font-weight: normal;
   fon-style: normal;
-}
-/* body {
+}*/
+body {
 font-family: Helvetica, Arial, sans-serif;
 color: #665544;
 padding: 0 15% 0 15%;
@@ -31,4 +31,4 @@ font-size:200%;
 }
 i {
 color:darkgreen;
-} */
+}
