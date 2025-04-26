@@ -3,16 +3,18 @@ body {
 }
 
 img {
- /*margin-left: 5px;
- margin-top:10px;*/
+ margin-left: 5px;
+ margin-top:10px;
  margin:auto;
  }
 
 .row{
  position:relative;
  margin:auto;
- /*margin-left:auto;
- margin-right:auto;*/
+ margin-left:auto;
+ margin-right:auto;
+ display: flex;
+ justify-content: center;
 }
 
 .white{
@@ -40,7 +42,8 @@ img {
  margin:10px;
  background-color:lightblue;
  width:100%;
- text-align:center; 
+ display: flex;
+ justify-content: center;
 }
 
 #container {
