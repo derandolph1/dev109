@@ -22,7 +22,7 @@ img {
  border: 1px solid black;
  width: 10%;
  height: 60px;
- background-color:white;
+ background-image: "img/wood.png";
  float:left;
  align-content: center;
 }
@@ -31,7 +31,7 @@ img {
  border: 1px solid black;
  width: 10%;
  height: 60px;
- background-color:#787878;
+ background-image: "img/wood1.png";
  float:left;
  align-content: center;
 }
