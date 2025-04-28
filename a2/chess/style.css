@@ -22,7 +22,7 @@ img {
  border: 1px solid black;
  width: 10%;
  height: 60px;
- background-image: img/("wood.png");
+ background-image: /img/("wood.png");
  float:left;
  display: flex;
  justify-content: center;
@@ -32,7 +32,7 @@ img {
  border: 1px solid black;
  width: 10%;
  height: 60px;
- background-image: "img/wood1.png";
+ background-image: "/img/wood1.png";
  float:left;
  display: flex;
  justify-content: center;
