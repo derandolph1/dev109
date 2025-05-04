@@ -1,9 +1,9 @@
 * {
 	font-family: Arial, Verdana, sans-serif;
+	background-image: url("images/bg.png");
 	color: #ffffff;
 	text-align: center;}
-body {
-	background-image: url("images/bg.png");
+body {	
 	width: 90%;
 	margin: 0 auto;}
 #content {
