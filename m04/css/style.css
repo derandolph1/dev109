@@ -3,9 +3,20 @@
 	color: #ffffff;
 	text-align: center;}
 body {	
-	width: 90%;
-	background-image: url("https://derandolph1.github.io/dev109/m04/images/bg.png");
+	width: 100%;	
 	margin: 0 auto;}
+.bg {
+  /* The image used */
+  background-image: url("https://derandolph1.github.io/dev109/m04/images/bg.png");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 #content {
 	overflow: auto;}
 #nav, #feature, #footer {
@@ -24,6 +35,7 @@ body {
 	background-color: #2F4F4F;}
 .column2{
 	background-color: #483D8B;}
+
 li {
 	display: inline;
 	padding: 0.5em;}
