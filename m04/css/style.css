@@ -2,21 +2,11 @@
 	font-family: Arial, Verdana, sans-serif;
 	color: #ffffff;
 	text-align: center;}
-body, html {	
+body {	
 	width: 100%;	
+ 	background-image: url("https://derandolph1.github.io/dev109/m04/images/bg.png");
 	margin: 0 auto;}
-.bg {
-  /* The image used */
-  background-image: url("https://derandolph1.github.io/dev109/m04/images/bg.png");
 
-  /* Full height */
-  height: 100%;
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 #content {
 	overflow: auto;}
 #nav, #feature, #footer {
