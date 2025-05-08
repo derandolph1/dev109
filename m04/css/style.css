@@ -5,6 +5,9 @@
 body {	
 	width: 100%;	
  	background-image: url("https://derandolph1.github.io/dev109/m04/images/bg.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 	margin: 0 auto;}
 
 #content {
