@@ -4,7 +4,7 @@ Deena Randolph
 05/10/25
 */
 //Display message
-var msg = "Multiplication Table"
+var message = "Multiplication Table"
 document.write('<h2>' + message + '</h2>');
 
 //Prompt user for number
