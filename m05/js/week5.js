@@ -1,8 +1,17 @@
-/*alert:  Welcome user!
-Create a variable message (var message;)
-prompt:  Ask the user for the firstname and store it in variable firstname (var firstname;)
-prompt:  Ask the user for the second name and store it in a variable lastname (var lastname;)
-In the Message concatenate the firstname and lastname  (HINT:  Concatenation in Javascript is done by the + symbol).
-Display message by using:*/
-var message = "Hello!"
-document.write('<h3>' + message + '</h3>');
+/*
+DEV109 - M05 Assignment - Multiplication Table
+Deena Randolph
+05/10/25
+*/
+//Display message
+var msg = "Multiplication Table"
+document.write('<h2>' + message + '</h2>');
+
+//Prompt user for number
+var number = prompt('Please enter a number from 0-10: ')
+
+//Loop and print output multiplication table
+for (var i = 0; i < 11; i++) {
+  document.write (number + ' * ' + i + ' = ' + number*i);
+}
+
