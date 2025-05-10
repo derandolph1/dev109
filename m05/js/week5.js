@@ -3,9 +3,8 @@ DEV109 - M05 Assignment - Multiplication Table
 Deena Randolph
 05/10/25
 */
-// Declare product variable and element variable for printing.
+// Declare product variable
 var product = 0
-var el = document.getElementById('blackboard')
 
 //Create message variable and add to text
 var message = "Multiplication Table"
@@ -13,7 +12,7 @@ text = '<h2>' + message + '</h2>';
 
 //Prompt user for base number 
 var userInput = prompt('Enter a number from 0-10: ');
-if (userInput !> 0 or userInput !< 10) { //if no number given use 0
+if (userInput < 1 || userInput > 9 || userInput == NaN) { //if no number given use 0
   userInput = 0;
 } 
 
@@ -24,5 +23,6 @@ for (var i = 1; i < 10; i++) {
 }
 
 //print text to blackboard
+var el = document.getElementById('blackboard')
 el.innerHTML = text
 
