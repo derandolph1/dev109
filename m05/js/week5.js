@@ -11,7 +11,7 @@ el.textContent = '<h2>' + message + '</h2>';
 
 //Prompt user for number
 var userInput = prompt('Enter a number from 0-10: ');
-if Number(userInput) == NaN {
+if (Number(userInput) == NaN) {
   userInput = 0;
 } 
 
