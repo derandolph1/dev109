@@ -13,7 +13,7 @@ text = '<h2>' + message + '</h2>';
 
 //Prompt user for base number 
 var userInput = prompt('Enter a number from 0-10: ');
-if (userInput == null) { //if no number given use 0
+if (userInput !> 0 or userInput !< 10) { //if no number given use 0
   userInput = 0;
 } 
 
