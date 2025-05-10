@@ -10,12 +10,14 @@ var message = "Multiplication Table"
 el.textContent = '<h2>' + message + '</h2>';
 
 //Prompt user for number
-var number = prompt('Please enter a number from 0-10: ')
-
+var userInput = prompt('Enter a number from 0-10: ');
+if Number(userInput) == NaN {
+  userInput = 0;
+} 
 
 //Loop and print output multiplication table
 for (var i = 0; i < 11; i++) {
-  sum = number * i
-  el.textContent = i + ' x ' + number + ' = ' + sum\n;
+  sum = userInput * i
+  el.textContent = i + ' x ' + userInput + ' = ' + sum\n;
 }
 
