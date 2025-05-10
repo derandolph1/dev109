@@ -18,7 +18,7 @@ if (userInput !> 0 or userInput !< 10) { //if no number given use 0
 } 
 
 //Loop through table and add results to text
-for (var i = 0; i < 11; i++) {
+for (var i = 1; i < 10; i++) {
   product = userInput * i
   text += i + ' x ' + userInput + ' = ' + product + '<br>';
 }
