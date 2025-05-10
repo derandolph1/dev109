@@ -11,13 +11,13 @@ var message = "Multiplication Table"
 text = '<h2>' + message + '</h2>';
 
 //Prompt user for base number 
-var userInput = prompt('Enter a number from 0-10: ');
+var userInput = prompt('Enter a number from 1-10: ');
 if (userInput < 1 || userInput > 9 || userInput == NaN) { //if no number given use 0
   userInput = 0;
 } 
 
 //Loop through table and add results to text
-for (var i = 1; i < 10; i++) {
+for (var i = 1; i < 11; i++) {
   product = userInput * i
   text += i + ' x ' + userInput + ' = ' + product + '<br>';
 }
