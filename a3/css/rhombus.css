@@ -1,0 +1,21 @@
+.container{
+  align-content: center;
+  margin: 0px;
+  padding:0px
+}
+
+#upLeft, #upRight{
+  display:inline-block;
+  padding: 0px;
+  margin: 0px;
+  float:left;
+}
+#downLeft, #downRight{
+  display:inline-block;
+  padding: 0px;
+  margin: 0px;
+  float:left;
+}
+#row{
+  clear:both;
+}
