@@ -74,7 +74,10 @@ p + h2 {
   margin-top: 1em; 
   border-top: 1px solid #fff; 
   padding-top: 1em;} 
-#hotel2 {
+#hotel2 {/* remove bottom border for second hotel
+  border-bottom: 1px solid #fff; 
+  padding-bottom: 1em;*/}
+#hotel3 {/*Add bottom border for third hotel*/
   border-bottom: 1px solid #fff; 
   padding-bottom: 1em;}
 
