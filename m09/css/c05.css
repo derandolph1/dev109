@@ -63,6 +63,12 @@ li {
 	height: 50px;
 	padding-left: 1em;
 	padding-top: 10px;}
+#item{	
+	font-size: 24px;
+	letter-spacing: .05em;
+	height: 50px;
+	padding-left: 1em;
+	padding-top: 10px;}
 
 .hot {
 	background-color: #d7666b;
