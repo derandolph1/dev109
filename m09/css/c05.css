@@ -65,13 +65,11 @@ li {
 	padding-top: 10px;}
 #item{	
 	letter-spacing: .05em;
-	height: 25px;
 	padding-left: 1em;
-	padding-top: 10px;}
+	margin: auto;}
 .form{
 	align-content: center;
-	margin: auto;
-}
+	margin: auto;}
 
 .hot {
 	background-color: #d7666b;
