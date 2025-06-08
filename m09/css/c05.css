@@ -68,6 +68,10 @@ li {
 	height: 25px;
 	padding-left: 1em;
 	padding-top: 10px;}
+.form{
+	align-content: center;
+	margin: auto;
+}
 
 .hot {
 	background-color: #d7666b;
