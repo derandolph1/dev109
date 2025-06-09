@@ -9,13 +9,13 @@ function isValid() {
         return false;
 }
 
-firstname.addEventListener('blur', firstName, false);
+fname.addEventListener('blur', fName, false);
 function firstName(){
     //1) Create variable
     var validFirstname=false;
 
     //2) read value from HTML
-    var firstname = document.getElementById("FirstName").value;
+    var firstname = document.getElementById("fname").value;
     var errorMessages = "";
 
     //3) Do validation
