@@ -10,7 +10,7 @@ function isValid() {
   
   // Do validation - Error message created if the input is blank or greater than 20 characters
   if (firstname==null || firstname==="" || firstname.length > 20) {
-    errorMessages +="<p>First name is required and must be less than 20 characters.</p>");
+    errorMessages +="<p>First name is required and must be less than 20 characters.</p>";
     formValid += 1;
   // Send error message to HTML
    document.getElementById("errorMessages").innerHTML = errorMessages;
