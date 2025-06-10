@@ -30,7 +30,7 @@ function isValid() {
   
   // Do validation - Error message created if the input is blank or greater than 20 characters
   if (lastname==null || lastname==="" || lastname.length > 20) {
-    errorMessages +="<p>Last name is required and must be less than 20 characters.</p>");
+    errorMessages +="<p>Last name is required and must be less than 20 characters.</p>";
     formValid += 1;
   }
   else {
