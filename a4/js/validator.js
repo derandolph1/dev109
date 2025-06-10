@@ -238,4 +238,3 @@ function firstName(){
 
     //5) return status of each field
     return (validFirstname);*/
-};
