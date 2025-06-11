@@ -98,8 +98,8 @@ function isValid() {
   }
     
  // Read value from HTML and assign to variable
-  var pswd1 = document.getElementyId("pswd1").value;
-  var pswd2 = document.getElementyId("pswd2").value;
+  var pswd1 = document.getElementById("pswd1").value;
+  var pswd2 = document.getElementById("pswd2").value;
   var pswd=/^[A-Za-z0-9\W]+$/;
   
   // Do validation
