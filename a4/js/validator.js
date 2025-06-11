@@ -81,7 +81,7 @@ function isValid() {
    document.getElementById("errorMessages").innerHTML = errorMessages;
   
   // Username: Create variable and read value from HTML
-  var username = document.getElementyId("username").value;
+  var username = document.getElementById("username").value;
   
   // Validate that user name is less than 12 charactkers
   if (username.length > 12){
