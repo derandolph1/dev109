@@ -1,7 +1,7 @@
 function addItem(){
   //Get input value and assign to variable
   var x = document.getElementById('item').value;
-  
+  console.log(x);
   // Create a new element and store it in a variable.
   var newEl = document.createElement('li');
   
