@@ -20,7 +20,7 @@ function isValid() {
   else{
    validFirstname = true;
   }
-  //return (validFirstname);
+  return (validFirstname);
   
   //Last Name: Create variable
   var validLastName = false;
