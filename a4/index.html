@@ -12,27 +12,27 @@
           <div class="col-75">
             <div class="container">
               <div id="errorMessages"></div>
-              <form id="customerinfo" action="ty.html" onsubmit="return isValid();">
+              <form id="customerinfo" action="ty.html" onsubmit="return isValid()" method="post">
 	        <div class="row">
 	          <div class="col-50">
 	            <h3>Online Form</h3>
 	            <p><label for='firstname'>First Name:</label>
-	            <input type="text" id="firstname" name="firstname"></p>
+	            <input type="text" id="firstname" name="firstname" required></p>
 	            <div class="warning" id="firstname"></div>
 	            <p><label for='lastname'>Last Name:</label>
 	            <input type="text" id="lastname" name="lastname"></p>
-	            <div class="warning" id="lastname"></div>
+	            <div class="warning" id="lastname" required></div>
 	            <p><label for="email"><i class="fa fa-envelope"></i>Email:</label>
-	            <input type="text" id="email" name="email"></p>
+	            <input type="text" id="email" name="email" required></p>
 	            <div class="warning" id="email"></div>
 		        <p><label for="phone"><i class="fa fa-phone"></i>Phone:</label>
-	            <input type="text" id="phone" name="phone"></p>
+	            <input type="text" id="phone" name="phone" required></p>
 	            <div class="warning" id="phone"></div>
 	            <p><label for="address"><i class="fa fa-address-card-o"></i>Address</label>
-	            <input type="text" id="address" name="address"></p>
+	            <input type="text" id="address" name="address" required></p>
 	            <div class="warning" id="address"></div>
 	            <p><label for="city"><i class="fa fa-institution"></i>City</label>
-	            <input type="text" id="city" name="city"></p>
+	            <input type="text" id="city" name="city" required></p>
 	            <div class="warning" id="city"></div>
 	
 	            <div class="row">
@@ -115,23 +115,23 @@
 	              </div>
 	              <div class="col-50">
 	                <p><label for="zip">Zip Code</label>
-	                <input type="text" id="zip" name="zip"></p>
+	                <input type="text" id="zip" name="zip" required></p>
 	            <div class="warning" id="zip"></div><br>
 	              </div>
 	              <div class="col-50">
 	                <h3>Create Account</h3>
 	                <p><label for="username">Username</label>
-	                <input type="text" id="username" name="username"></p>
+	                <input type="text" id="username" name="username" required></p>
 	            <div class="warning" id="username"></div>
 	              </div>
 	              <div class="col-50">
 	                <p><label for="pswd1">Password</label>
-	                <input type="text" id="pswd1" name="pswd1"></p>
+	                <input type="text" id="pswd1" name="pswd1" required></p>
 	            <div class="warning" id="pswd1"></div>
 	              </div>
 	              <div class="col-50">
 	                <p><label for="pswd2">Re-enter Password</label>
-	                <input type="text" id="pswd2" name="pswd2"></p>
+	                <input type="text" id="pswd2" name="pswd2" required></p>
 	            <div class="warning" id="pswd2"></div>
 	              </div>
 	              <div class="col-50">
