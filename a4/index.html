@@ -13,138 +13,125 @@
             <div class="container">
               <div id="errorMessages"></div>
               <form id="customerinfo" action="ty.html" onsubmit="return isValid()" method="post">
-	        <div class="row">
-	          <div class="col-50">
-	            <h3>Online Form</h3>
-	            <p><label for='firstname'>First Name:</label>
-	            <input type="text" id="firstname" name="firstname" required></p>
-	            <div class="warning" id="firstname"></div>
-	            <p><label for='lastname'>Last Name:</label>
-	            <input type="text" id="lastname" name="lastname"></p>
-	            <div class="warning" id="lastname" required></div>
-	            <p><label for="email"><i class="fa fa-envelope"></i>Email:</label>
-	            <input type="text" id="email" name="email" required></p>
-	            <div class="warning" id="email"></div>
-		        <p><label for="phone"><i class="fa fa-phone"></i>Phone:</label>
-	            <input type="text" id="phone" name="phone" required></p>
-	            <div class="warning" id="phone"></div>
-	            <p><label for="address"><i class="fa fa-address-card-o"></i>Address</label>
-	            <input type="text" id="address" name="address" required></p>
-	            <div class="warning" id="address"></div>
-	            <p><label for="city"><i class="fa fa-institution"></i>City</label>
-	            <input type="text" id="city" name="city" required></p>
-	            <div class="warning" id="city"></div>
-	
-	            <div class="row">
-	              <div class="col-50">
-	                <p><label for="state">State</label>
-	                <select id="state" name="state"></p>
-	                <option value="00" selected="selected">[Select a state]</option>                  
-	                <option value="AL">Alabama</option>
-	                <option value="AK">Alaska</option>
-	                <option value="AZ">Arizona</option>
-	                <option value="AR">Arkansas</option>
-	                <option value="CA">California</option>
-	                <option value="CO">Colorado</option>
-	                <option value="CT">Connecticut</option>
-	                <option value="DE">Delaware</option>
-	                <option value="FL">Florida</option>
-	                <option value="GA">Georgia</option>
-	                <option value="HI">Hawaii</option>
-	                <option value="ID">Idaho</option>
-	                <option value="IL">Illinois</option>
-	                <option value="IN">Indiana</option>
-	                <option value="IA">Iowa</option>
-	                <option value="KS">Kansas</option>
-	                <option value="KY">Kentucky</option>
-	                <option value="LA">Louisiana</option>
-	                <option value="ME">Maine</option>
-	                <option value="MD">Maryland</option>
-	                <option value="MA">Massachusetts</option>
-	                <option value="MI">Michigan</option>
-	                <option value="MN">Minnesota</option>
-	                <option value="MS">Mississippi</option>
-	                <option value="MO">Missouri</option>
-	                <option value="MT">Montana</option>
-	                <option value="NE">Nebraska</option>
-	                <option value="NV">Nevada</option>
-	                <option value="NH">New Hampshire</option>
-	                <option value="NJ">New Jersey</option>
-	                <option value="NM">New Mexico</option>
-	                <option value="NY">New York</option>
-	                <option value="NC">North Carolina</option>
-	                <option value="ND">North Dakota</option>
-	                <option value="OH">Ohio</option>
-	                <option value="OK">Oklahoma</option>
-	                <option value="OR">Oregon</option>
-	                <option value="PA">Pennsylvania</option>
-	                <option value="RI">Rhode Island</option>
-	                <option value="SC">South Carolina</option>
-	                <option value="SD">South Dakota</option>
-	                <option value="TN">Tennessee</option>
-	                <option value="TX">Texas</option>
-	                <option value="UT">Utah</option>
-	                <option value="VT">Vermont</option>
-	                <option value="VA">Virginia</option>
-	                <option value="WA">Washington</option>
-	                <option value="WV">West Virginia</option>
-	                <option value="WI">Wisconsin</option>
-	                <option value="WY">Wyoming</option>
-	                <option value="DC">District of Columbia</option>
-		          </select>
-	            <div class="warning" id="state"></div>
-	              </div>
-	              <div class="col-50">
-	                <p><label for="country">Country</label>
-	                <select id="country" name="country">
-	                      <option value="000" selected="selected">[Select a country]</option>
-	                      <option value="001">United States</option>
-	                      <option value="008">Albania</option>
-	                      <option value="012">Algeria</option>
-	                      <option value="016">American Samoa</option>
-	                      <option value="020">Andorra</option>
-	                      <option value="024">Angola</option>
-	                      <option value="660">Anguilla</option>
-	                      <option value="010">Antarctica</option>
-	                      <option value="028">Antigua And Barbuda</option>
-	                      <option value="032">Argentina</option>
-	                      <option value="051">Armenia</option>
-	                      <option value="533">Aruba</option>
-		          </select>
-	            <div class="warning" id="country"></div>
-	              </div>
-	              <div class="col-50">
-	                <p><label for="zip">Zip Code</label>
-	                <input type="text" id="zip" name="zip" required></p>
-	            <div class="warning" id="zip"></div><br>
-	              </div>
-	              <div class="col-50">
-	                <h3>Create Account</h3>
-	                <p><label for="username">Username</label>
-	                <input type="text" id="username" name="username" required></p>
-	            <div class="warning" id="username"></div>
-	              </div>
-	              <div class="col-50">
-	                <p><label for="pswd1">Password</label>
-	                <input type="text" id="pswd1" name="pswd1" required></p>
-	            <div class="warning" id="pswd1"></div>
-	              </div>
-	              <div class="col-50">
-	                <p><label for="pswd2">Re-enter Password</label>
-	                <input type="text" id="pswd2" name="pswd2" required></p>
-	            <div class="warning" id="pswd2"></div>
-	              </div>
-	              <div class="col-50">
-	                <h3>Comments:</h3>
-	                <p><label for="comment">Comments:</label>
-	                  <textarea type="comment" rows="3" cols="80" id="comment" name="comment"></textarea></p>
-	              </div>
-	            </div>
-	          </div>          
-	        </div>
-	        <input type="submit" value="Submit" class="btn">
-	            <div class="warning" id="submiterror"></div>
-	      </form>
+	        	<div class="row">
+	          	<div class="col-50">
+		            <h3>Online Form</h3>
+		            <p><label for='firstname'>First Name:</label>
+		            	<input type="text" id="firstname" name="firstname" required></p>
+		            <div class="warning" id="firstname"></div>
+		            <p><label for='lastname'>Last Name:</label>
+		            	<input type="text" id="lastname" name="lastname" required>></p>
+		            <div class="warning" id="lastname"</div>
+		            <p><label for="email"><i class="fa fa-envelope"></i>Email:</label>
+		            	<input type="text" id="email" name="email" required></p>
+		            <div class="warning" id="email"></div>
+					<p><label for="phone"><i class="fa fa-phone"></i>Phone:</label>
+		            	<input type="text" id="phone" name="phone" required></p>
+		            <div class="warning" id="phone"></div>
+		            <p><label for="address"><i class="fa fa-address-card-o"></i>Address</label>
+		            	<input type="text" id="address" name="address" required></p>
+		            <div class="warning" id="address"></div>
+		            <p><label for="city"><i class="fa fa-institution"></i>City</label>
+		            	<input type="text" id="city" name="city" required></p>
+		            <div class="warning" id="city"></div>	            
+		            <p><label for="state">State</label>
+		                <select id="state" name="state"></p>
+			                <option value="00" selected="selected">[Select a state]</option>                  
+			                <option value="AL">Alabama</option>
+			                <option value="AK">Alaska</option>
+			                <option value="AZ">Arizona</option>
+			                <option value="AR">Arkansas</option>
+			                <option value="CA">California</option>
+			                <option value="CO">Colorado</option>
+			                <option value="CT">Connecticut</option>
+			                <option value="DE">Delaware</option>
+			                <option value="FL">Florida</option>
+			                <option value="GA">Georgia</option>
+			                <option value="HI">Hawaii</option>
+			                <option value="ID">Idaho</option>
+			                <option value="IL">Illinois</option>
+			                <option value="IN">Indiana</option>
+			                <option value="IA">Iowa</option>
+			                <option value="KS">Kansas</option>
+			                <option value="KY">Kentucky</option>
+			                <option value="LA">Louisiana</option>
+			                <option value="ME">Maine</option>
+			                <option value="MD">Maryland</option>
+			                <option value="MA">Massachusetts</option>
+			                <option value="MI">Michigan</option>
+			                <option value="MN">Minnesota</option>
+			                <option value="MS">Mississippi</option>
+			                <option value="MO">Missouri</option>
+			                <option value="MT">Montana</option>
+			                <option value="NE">Nebraska</option>
+			                <option value="NV">Nevada</option>
+			                <option value="NH">New Hampshire</option>
+			                <option value="NJ">New Jersey</option>
+			                <option value="NM">New Mexico</option>
+			                <option value="NY">New York</option>
+			                <option value="NC">North Carolina</option>
+			                <option value="ND">North Dakota</option>
+			                <option value="OH">Ohio</option>
+			                <option value="OK">Oklahoma</option>
+			                <option value="OR">Oregon</option>
+			                <option value="PA">Pennsylvania</option>
+			                <option value="RI">Rhode Island</option>
+			                <option value="SC">South Carolina</option>
+			                <option value="SD">South Dakota</option>
+			                <option value="TN">Tennessee</option>
+			                <option value="TX">Texas</option>
+			                <option value="UT">Utah</option>
+			                <option value="VT">Vermont</option>
+			                <option value="VA">Virginia</option>
+			                <option value="WA">Washington</option>
+			                <option value="WV">West Virginia</option>
+			                <option value="WI">Wisconsin</option>
+			                <option value="WY">Wyoming</option>
+			                <option value="DC">District of Columbia</option>
+			          </select>
+		            <div class="warning" id="state"></div>	            
+		            <p><label for="country">Country</label>
+		                <select id="country" name="country">
+		                      <option value="000" selected="selected">[Select a country]</option>
+		                      <option value="001">United States</option>
+		                      <option value="008">Albania</option>
+		                      <option value="012">Algeria</option>
+		                      <option value="016">American Samoa</option>
+		                      <option value="020">Andorra</option>
+		                      <option value="024">Angola</option>
+		                      <option value="660">Anguilla</option>
+		                      <option value="010">Antarctica</option>
+		                      <option value="028">Antigua And Barbuda</option>
+		                      <option value="032">Argentina</option>
+		                      <option value="051">Armenia</option>
+		                      <option value="533">Aruba</option>
+			          </select>
+		            <div class="warning" id="country"></div>
+		            <p><label for="zip">Zip Code</label>
+		                <input type="text" id="zip" name="zip" required></p>
+		            <div class="warning" id="zip"></div><br>
+		            </div>
+		            <div class="col-50">
+		                <h3>Create Account</h3>
+		                <p><label for="username">Username</label>
+		                <input type="text" id="username" name="username" required></p>
+		            <div class="warning" id="username"></div>
+		            <p><label for="pswd1">Password</label>
+		                <input type="text" id="pswd1" name="pswd1" required></p>
+		            <div class="warning" id="pswd1"></div>
+		            <p><label for="pswd2">Re-enter Password</label>
+		                <input type="text" id="pswd2" name="pswd2" required></p>
+		            <div class="warning" id="pswd2"></div>
+		            <div class="col-50">
+		                <h3>Comments:</h3>
+		                <p><label for="comment">Comments:</label>
+		                  <textarea type="comment" rows="3" cols="80" id="comment" name="comment"></textarea></p>
+		              </div>
+		            </div>
+		          </div>   
+		        	<input type="submit" value="Submit" class="btn">
+		        <div class="warning" id="submiterror"></div>
+		      </form>
             </div>
           </div>
         </div>
