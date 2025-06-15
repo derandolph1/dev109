@@ -1,12 +1,11 @@
-
-let slideIndex = 1;
+let slideIndex = 0;
 showSlides();
 // Show slide function with out current page paramenter on automatic loop.
 function showSlides() {
   let i;
   let slides = document.getElementsByClassName("mySlides");
   let dots = document.getElementsByClassName("dot");
-  for (i = 1; i < slides.length+1; i++) {
+  for (i = 0; i < slides.length; i++) {
     /*slides[i].style.display = "none";*/
     dots[i].className = dots[i].className.replace(" active", "");
   }
