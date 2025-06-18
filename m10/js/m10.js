@@ -5,3 +5,7 @@ window.addEventListener("click", event => {
     dot.style.top = (event.pageY - 4) + "px";
     document.body.appendChild(dot);
   });
+clean.addEventListener("click", event => {
+    let dot = document.getElementByTagName("div");
+    dot = "";
+}
