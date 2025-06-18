@@ -8,6 +8,10 @@ body {
     background: teal;
     position: absolute;
   }
+#content {
+	height:90%;
+	width: 100%;
+}
 #clean {
 	height: 44px;
 	width: 44px:
