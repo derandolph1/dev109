@@ -8,4 +8,4 @@ window.addEventListener("click", event => {
 clean.addEventListener("click", event => {
     let clear = document.getElementByTagName("div");
     clear.innerHTML = "";
-}
+});
