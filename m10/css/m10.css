@@ -8,6 +8,11 @@ body {
     background: teal;
     position: absolute;
   }
+#clean {
+	height: 44px;
+	width: 44px:
+	position: 10px 400px;
+}
 footer {
 	box-sizing: border-box;
 	/*position: sticky; - DR*/
