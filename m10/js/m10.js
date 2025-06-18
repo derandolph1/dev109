@@ -6,6 +6,6 @@ window.addEventListener("click", event => {
     document.body.appendChild(dot);
   });
 clean.addEventListener("click", event => {
-    let dot = document.getElementByTagName("div");
-    dot = "";
+    let clear = document.getElementByTagName("div");
+    clear.innerHTML = "";
 }
